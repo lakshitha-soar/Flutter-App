@@ -1,0 +1,53 @@
+name: soar_app
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.0.0
+  flutter_svg: ^0.22.0
+  carousel_slider: ^3.0.0
+  flutter_barcode_scanner: ^2.0.0
+
+dev_dependencies:
+  image_picker: ^0.7.5+2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/mock/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 700
+
+    - family:  SoarIcon
+      fonts:
+        - asset: assets/icons/SoarIcon.ttf

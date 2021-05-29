@@ -1,0 +1,212 @@
+{
+  "survey_Id": "s1",
+  "survey_title": "Intermodal Container Inspection Checklist",
+  "description": "Intermodal container inspection checklist",
+  "author": "Viranga kekulawala Extended name",
+  "createdDate": "20/04/2021",
+  "survey_header": {
+    "survey_headerId": "sh1",
+    "survey_pages": [
+      {
+        "questions": [
+          {
+            "question_id": "q1",
+            "question_title": "Container Number",
+            "typeOfResponses": "Media",
+            "response": "",
+            "sequenceNumber": 1,
+            "question_options": [
+              {
+                "required": true,
+                "multi_selection": false,
+                "option_choices": []
+              }
+            ]
+          },
+          {
+            "question_id": "q2",
+            "question_title": "CSC Plate",
+            "typeOfResponses": "Media",
+            "response": "",
+            "sequenceNumber": 2,
+            "question_options": [
+              {
+                "required": false,
+                "multi_selection": false,
+                "option_choices": []
+              }
+            ]
+          }
+        ],
+        "survey_sections": [
+          {
+            "section_id": "ss3",
+            "section_title": "Undercarriage",
+            "sequenceNumber": 3,
+            "questions": [
+              {
+                "question_id": "ss3q1",
+                "question_title": "Are support beams visible?",
+                "typeOfResponses": "MultiChoice",
+                "response": "",
+                "sequenceNumber": 1,
+                "question_options": [
+                  {
+                    "required": true,
+                    "multi_selection": false,
+                    "option_choices": [
+                      "yes",
+                      "No"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_id": "ss4",
+            "section_title": "Doors",
+            "sequenceNumber": 4,
+            "questions": [
+              {
+                "question_id": "ss4q1",
+                "question_title": "ISO Identification",
+                "typeOfResponses": "MultiChoice",
+                "response": "",
+                "sequenceNumber": 1,
+                "question_options": [
+                  {
+                    "required": true,
+                    "multi_selection": false,
+                    "option_choices": [
+                      "Pass",
+                      "Fail"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question_id": "ss4q2",
+                "question_title": "CSC Safety Approval",
+                "typeOfResponses": "MultiChoice",
+                "response": "",
+                "sequenceNumber": 2,
+                "question_options": [
+                  {
+                    "required": true,
+                    "multi_selection": false,
+                    "option_choices": [
+                      "Pass",
+                      "Fail"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_id": "ss5",
+            "section_title": "Roof",
+            "sequenceNumber": 5,
+            "questions": [
+              {
+                "question_id": "ss5q1",
+                "question_title": "ISO Identification",
+                "typeOfResponses": "MultiChoice",
+                "response": "",
+                "sequenceNumber": 1,
+                "question_options": [
+                  {
+                    "required": true,
+                    "multi_selection": false,
+                    "option_choices": [
+                      "Pass",
+                      "Fail"
+                    ]
+                  }
+                ]
+              },
+              {
+                "question_id": "ss5q2",
+                "question_title": "Corner Fittings",
+                "typeOfResponses": "MultiChoice",
+                "response": "",
+                "sequenceNumber": 2,
+                "question_options": [
+                  {
+                    "required": true,
+                    "multi_selection": false,
+                    "option_choices": [
+                      "Pass",
+                      "Fail"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "questions": [
+          {
+            "question_id": "q6",
+            "question_title": "Shipper",
+            "typeOfResponses": "Barcode",
+            "response": "",
+            "sequenceNumber": 6,
+            "question_options": [
+              {
+                "required": true,
+                "multi_selection": true,
+                "option_choices": []
+              }
+            ]
+          },
+          {
+            "question_id": "q7",
+            "question_title": "Current Location",
+            "typeOfResponses": "Location",
+            "response": "",
+            "sequenceNumber": 7,
+            "question_options": [
+              {
+                "required": true,
+                "multi_selection": true,
+                "option_choices": []
+              }
+            ]
+          },
+          {
+            "question_id": "q8",
+            "question_title": "Inspected By",
+            "typeOfResponses": "Barcode",
+            "response": "",
+            "sequenceNumber": 8,
+            "question_options": [
+              {
+                "required": true,
+                "multi_selection": true,
+                "option_choices": []
+              }
+            ]
+          },
+          {
+            "question_id": "q9",
+            "question_title": "Name & Signature of Inspector",
+            "typeOfResponses": "Signature",
+            "response": "",
+            "sequenceNumber": 9,
+            "question_options": [
+              {
+                "required": true,
+                "multi_selection": true,
+                "option_choices": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
